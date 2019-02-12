@@ -44,6 +44,7 @@ import Objectlistcounter4reduce from './BASICS2/Objectlistcounter4reduce'
 import Objectlistcounter5 from './BASICS2/Objectlistcounter5'
 
 import Basic11buttoncount1 from './BASICS/Basic11buttoncount1'
+import Form from './BASICS3/Form'
 
 
 
@@ -52,6 +53,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+      <Form/>
       {/* <Basic11buttoncount1/> */}
       {/* <Countage/> */}
     
