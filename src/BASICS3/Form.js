@@ -8,10 +8,12 @@ import React, { Component } from 'react'
           Username : "",
           Comments : "",
           Languages : "React",
+         
        }
        this.handleUserNameChange=this.handleUserNameChange.bind(this)
        this.commentsChange=this.commentsChange.bind(this)
        this.changeSelect=this.changeSelect.bind(this)
+       this.submitData=this.submitData.bind(this)
      }
      handleUserNameChange(type){
  this.setState({
@@ -28,11 +30,15 @@ import React, { Component } from 'react'
              Languages : type2.target.value
          })
      }
+     submitData(){
+         alert(`${this.state.Username} ${this.state.Comments} ${this.state.Languages}`)
+         }
+     
      
   render() {
     return (
       <div>
-        <form>
+        <form onSubmit={this.submitData}> 
             <div>
             <label>Username   : </label>
             <input
@@ -56,6 +62,9 @@ import React, { Component } from 'react'
                     <option value="Vue">Vue</option>
 
                 </select>
+            </div>
+            <div>
+                <button type="submit">Submit Data</button>
             </div>
         </form>
       </div>
