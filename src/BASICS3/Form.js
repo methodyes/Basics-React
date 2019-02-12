@@ -30,8 +30,9 @@ import React, { Component } from 'react'
              Languages : type2.target.value
          })
      }
-     submitData(){
+     submitData(event){
          alert(`${this.state.Username} ${this.state.Comments} ${this.state.Languages}`)
+         event.preventDefault()
          }
      
      
