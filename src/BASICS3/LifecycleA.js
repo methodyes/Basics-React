@@ -9,9 +9,17 @@ class LifecycleA extends Component {
       }
       console.log('Lifecycle A constructor')
     }
+    static getDerivedStateFromProps(props,state){
+        console.log('Lifecycle A  getDerivedStateFromProps')
+        return null
+    }
+    componentDidMount(){
+        console.log('Lifecycle A componentDidMount')
+    }
    
     
   render() {
+    console.log('Lifecycle A render')
     return (
       <div>
         {this.state.name}

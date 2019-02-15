@@ -54,7 +54,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <LifecycleA/>
+      <LifecycleA />
       {/* <Form/> */}
       {/* <Basic11buttoncount1/> */}
       {/* <Countage/> */}
