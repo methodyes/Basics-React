@@ -1,0 +1,2 @@
+/* Memo is used since we cant use should component update method for the functional components , so react team 
+introduced memo concept to use for functional component. this is also usefull for perfomance optimization. */
