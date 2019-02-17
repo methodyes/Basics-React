@@ -46,6 +46,7 @@ import Objectlistcounter5 from './BASICS2/Objectlistcounter5'
 import Basic11buttoncount1 from './BASICS/Basic11buttoncount1'
 import Form from './BASICS3/Form'
 import LifecycleA from './BASICS3/LifecycleA'
+import PureComp from './PureComp';
 
 
 
@@ -54,7 +55,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <LifecycleA />
+      {/* <PureComp/> */}
+      {/* <LifecycleA /> */}
       {/* <Form/> */}
       {/* <Basic11buttoncount1/> */}
       {/* <Countage/> */}
