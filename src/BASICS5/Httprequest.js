@@ -7,7 +7,8 @@ import axios from 'axios'
      
        this.state = {
           title : "Email List",
-          details : []
+          details : [],
+          error :'',
        }
      }
      componentDidMount(){
@@ -19,10 +20,15 @@ import axios from 'axios'
         })
 
          })
+         .catch(error=>{
+             this.setState({
+                error:"Error of receiving data"
+             })
+         })
      }
      
   render() {
-      var {title,details} = this.state
+      var {title,details,error} = this.state
     return (
       <div>
         <h1>{title}</h1>
@@ -31,6 +37,7 @@ import axios from 'axios'
                 <h3>{detail.email}</h3>
             )
         })}
+        <div>{error}</div>
       </div>
     )
   }
