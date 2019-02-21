@@ -15,12 +15,15 @@ import axios from 'axios'
          axios.get('https://jsonplaceholder.typicode.com/posts/1/comments')
          .then(response=>{
         //    console.log(response)
+        response.data.length=10
         this.setState({
+            
             details : response.data
         })
 
          })
          .catch(error=>{
+            //  console.log(error)
              this.setState({
                 error:"Error of receiving data"
              })
