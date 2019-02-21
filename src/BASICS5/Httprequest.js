@@ -11,7 +11,7 @@ import axios from 'axios'
        }
      }
      componentDidMount(){
-         axios.get('https://jsonplaceholder.typicode.com/posts')
+         axios.get('https://jsonplaceholder.typicode.com/posts/1/comments')
          .then(response=>{
         //    console.log(response)
         this.setState({
@@ -22,10 +22,15 @@ import axios from 'axios'
      }
      
   render() {
-      var {title} = this.state
+      var {title,details} = this.state
     return (
       <div>
         <h1>{title}</h1>
+        {details.map(detail=>{
+            return (
+                <h3>{detail.email}</h3>
+            )
+        })}
       </div>
     )
   }
