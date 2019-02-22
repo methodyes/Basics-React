@@ -20,7 +20,7 @@ class Form1 extends Component {
   }
   submitHandler(e){
       var {Name,City,Language}=this.state
-  alert(`${Name} is from  ${City} and He speaks ${Language}`)
+  alert(`${Name} is from  ${City} and He speaks ${Language}`) /* make sure to use ` i/o ' */
   e.preventDefault() /* this is used to stop refresh the page*/
   this.setState({  /* below is used to show the empty inputs after alert is popped up */
     Name: "",
