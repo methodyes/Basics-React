@@ -21,6 +21,14 @@ import axios from 'axios'
          console.log(this.state)
          axios.post('https://jsonplaceholder.typicode.com/posts/1/comments',this.state) 
         //  the post method is taking second argument which is the data that has to be sent
+        // once the request is completed, we get either response or get an error, as blw.
+        .then(response=>{
+         console.log(response)
+        })
+        .catch(error=>{
+            console.log(error)
+
+        })
      }
        
      
