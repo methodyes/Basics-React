@@ -19,7 +19,8 @@ import axios from 'axios'
      submitHandler=(e)=>{
          e.preventDefault();
          console.log(this.state)
-         axios.post('https://jsonplaceholder.typicode.com/posts/1/comments')
+         axios.post('https://jsonplaceholder.typicode.com/posts/1/comments',this.state) 
+        //  the post method is taking second argument which is the data that has to be sent
      }
        
      
