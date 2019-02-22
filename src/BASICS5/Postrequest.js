@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import axios from 'axios'
 
  class Postrequest extends Component {
      constructor(props) {
@@ -18,6 +19,7 @@ import React, { Component } from 'react'
      submitHandler=(e)=>{
          e.preventDefault();
          console.log(this.state)
+         axios.post('https://jsonplaceholder.typicode.com/posts/1/comments')
      }
        
      
@@ -51,4 +53,4 @@ export default Postrequest
 
 /* how to post data to an api from our react application 
 need to send the data of userid,title and body to api. (to array list )
-create three input tags.
+create three input tags. */
