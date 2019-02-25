@@ -9,6 +9,9 @@ import React, { Component } from 'react'
        }
        this.inputref=React.createRef()
      }
+     componentDidMount(){
+         console.log(this.inputref)
+     }
      
   render() {
     return (

@@ -50,6 +50,7 @@ import LifecycleA from './BASICS3/LifecycleA'
 import Httprequest from './BASICS5/Httprequest'
 import Form1 from './BASICS3/Form1'
 import Postrequest from './BASICS5/Postrequest'
+import RefsDemo from './BASICS4/RefsDemo'
 
 
 
@@ -57,8 +58,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+      <RefsDemo/>
       {/* <Postrequest/> */}
-      <Form1/>
+      {/* <Form1/> */}
       {/* <Httprequest/> */}
       {/* <PureComp/> */}
       {/* <LifecycleA /> */}
