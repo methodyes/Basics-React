@@ -1,11 +1,21 @@
 import React, { Component } from 'react'
 
  class RefsDemo extends Component {
+     constructor(props) {
+       super(props)
+     
+       this.state = {
+          
+       }
+       this.inputref=React.createRef()
+     }
+     
   render() {
     return (
       <div>
         <input
         text="text"
+
         />
       </div>
     )
