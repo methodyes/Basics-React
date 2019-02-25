@@ -10,6 +10,7 @@ import React, { Component } from 'react'
        this.inputref=React.createRef()
      }
      componentDidMount(){
+         this.inputref.current.focus()
          console.log(this.inputref)
      }
      
