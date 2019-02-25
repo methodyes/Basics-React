@@ -57,8 +57,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <Postrequest/>
-      {/* <Form1/> */}
+      {/* <Postrequest/> */}
+      <Form1/>
       {/* <Httprequest/> */}
       {/* <PureComp/> */}
       {/* <LifecycleA /> */}
