@@ -15,7 +15,7 @@ import React, { Component } from 'react'
       <div>
         <input
         text="text"
-
+        ref={this.inputref}
         />
       </div>
     )
