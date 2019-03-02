@@ -25,3 +25,7 @@ this.buttonclick=this.buttonclick.bind(this)
 }
 
 export default Basic8alert;
+
+// INSIDE APP .JS 
+
+// {/* <Basic8alert></Basic8alert> */}

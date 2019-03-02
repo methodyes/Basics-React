@@ -48,3 +48,7 @@ import React, { Component } from 'react'
 export default Basic11buttoncount
 
 // note : this is how to add a button to change the value here- we have used binding method here.
+
+// INSIDE APP .JS
+
+     {/* <Basic11buttoncount1/> */}

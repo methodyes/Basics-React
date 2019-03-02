@@ -10,3 +10,7 @@ const Basic4functionalprops = (props) => {
 }
 
 export default Basic4functionalprops
+
+// In App.js 
+
+ {/* <Basic4functionalprops name="Metho" age="30"></Basic4functionalprops> */}

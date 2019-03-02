@@ -37,3 +37,8 @@ import React, { Component } from 'react'
   }
 }
 export default Basic13ifclasscom
+
+// INSIDE APP .JS
+
+    //  {/* <Basic13ifclasscom name="Metho" age="30"></Basic13ifclasscom>
+

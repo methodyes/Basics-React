@@ -13,3 +13,6 @@ import React, { Component } from 'react'
   }
 }
 export default Basic5classprops
+// In App.js 
+
+      {/* <Basic5classprops name="Metho" age="30"></Basic5classprops> */}

@@ -11,3 +11,5 @@ const Basic2functionalcomponent = () => {
 export default Basic2functionalcomponent
 
 // above is the format for functional component. the snippets is rafc 
+// In App.js 
+// {/* <Basic2functionalcomponent/> */}

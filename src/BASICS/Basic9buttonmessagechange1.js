@@ -27,3 +27,7 @@ class Basic9buttonmessagechange1 extends Component {
   }
 }
 export default Basic9buttonmessagechange1;
+
+// INSIDE APP .JS 
+
+  {/* <Basic9buttonmessagechange1/> */}

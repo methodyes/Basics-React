@@ -13,3 +13,7 @@ import React, { Component } from 'react'
   }
 }
 export default Basic6childrenprops
+
+// In App.js 
+
+ {/* <Basic6childrenprops name="Metho" age="30"> is a programmer </Basic6childrenprops> */}

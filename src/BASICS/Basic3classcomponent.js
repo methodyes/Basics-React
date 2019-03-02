@@ -12,3 +12,5 @@ import React, { Component } from 'react'
 export default Basic3classcomponent
 
 // this is the format for a class component, the snippets is rcc
+// In App.js 
+//   {/* <Basic3classcomponent/> */}

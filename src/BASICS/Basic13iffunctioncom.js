@@ -37,3 +37,10 @@ Name : {props.name} | Age : {age}
 }
 
 export default Basic13iffunctioncom
+
+// INSIDE APP .JS
+
+   {/* <Basic13iffunctioncom name="Metho" age="30"></Basic13iffunctioncom>
+      <Basic13iffunctioncom name="" age="26"></Basic13iffunctioncom>
+    <Basic13iffunctioncom name="Ammar" age=""></Basic13iffunctioncom> 
+    <Basic13iffunctioncom name="" age=""></Basic13iffunctioncom>  */}

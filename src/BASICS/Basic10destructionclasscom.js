@@ -16,3 +16,7 @@ export default  Basic10destructionclasscom
 
 // note : this is how to destruction for class Component- we have assigned a const for the props.
 // but this must do inside the render
+
+// INSIDE APP .JS
+
+   {/* <Basic10destructionclasscom name="Metho" age="30"></Basic10destructionclasscom> */}

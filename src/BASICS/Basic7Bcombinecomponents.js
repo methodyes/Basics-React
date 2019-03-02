@@ -13,3 +13,18 @@ export default class Basic7Bcombinecomponents extends Component {
   }
 }
 // this is the sub compoent. see how the details are mentioned. here.
+// // Inside Basic7Acombinecomponents
+
+// import React from 'react'
+// import Basic7Bcombinecomponents from './Basic7Bcombinecomponents'
+
+// const Basic7Acombinecomponents = () => {
+//   return (
+//     <div>
+
+//       <Basic7Bcombinecomponents name="Metho" age="30" > Cool </Basic7Bcombinecomponents>
+//     </div>
+//   )
+// }
+
+// export default Basic7Acombinecomponents

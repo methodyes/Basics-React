@@ -15,3 +15,9 @@ const Basic12letfunction = props => {
 export default Basic12letfunction;
 
 // this is how to use a let funcion in a funcitonal component
+
+// INSIDE APP .JS
+
+      {/* <Basic12letfunction name="Metho" age="30"></Basic12letfunction>
+      <Basic12letfunction name="" age="26"></Basic12letfunction>
+      <Basic12letfunction name="Ammar" age=""></Basic12letfunction> */}

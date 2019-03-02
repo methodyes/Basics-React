@@ -16,3 +16,9 @@ class Basic12letclass extends Component {
 export default   Basic12letclass
 
 // this is how to use a let funcion in a class component
+
+// INSIDE APP .JS
+
+     {/* <Basic12letclass name="Metho" age="30"></Basic12letclass>
+      <Basic12letclass name="" age="26"></Basic12letclass>
+      <Basic12letclass name="Ammar" age=""></Basic12letclass> */}

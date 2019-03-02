@@ -40,3 +40,7 @@ import React, { Component } from 'react'
 }
 
 export default Basic11buttoncount1
+
+// INSIDE APP .JS
+
+      {/* <Basic11buttoncount1/> */}

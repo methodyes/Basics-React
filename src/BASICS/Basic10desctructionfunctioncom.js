@@ -13,3 +13,7 @@ const Basic10desctructionfunctioncom = (props) => {
 export default Basic10desctructionfunctioncom
 
 // note : this is how to destruction for functional Component- we have assigned a const for the props.
+
+// INSIDE APP .JS
+
+      {/* <Basic10desctructionfunctioncom name="Metho" age="30"></Basic10desctructionfunctioncom> */}
